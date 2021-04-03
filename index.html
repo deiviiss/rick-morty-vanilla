@@ -7,10 +7,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rick & Morty</title>
 
+  <link rel="stylesheet" href="./static/css/styles.css">
+
 </head>
 
 <body>
-  <script src="/js/app.js"></script>
+
+  <div class="placeholder-container">
+    <h1 id="character-name-placeholder" class="character-name-placeholder"></h1>
+  </div>
+
+  <div class="grid">
+
+    <!-- fila 1 -->
+    <div class="asset top">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="line"></span>
+    </div>
+
+    <img class="logo" src="./static/images/logo@2x.png" alt="logo Rick&Morty " width="280px">
+
+    <div class="social">
+      <a href="https://instagram.com/_deiviiss">
+        <img src="./static/images/instagram.svg" alt="instagram _deiviiss">
+      </a>
+
+      <a href="https://github.com/_deiviiss">
+        <img src="./static/images/facebook.svg" alt="github _deiviiss">
+      </a>
+
+      <a href="https://twitter.com/_deiviiss">
+        <img src="./static/images/twitter.svg" alt="twitter _deiviiss">
+      </a>
+
+    </div>
+
+    <!-- fila 2 -->
+    <div class="navigation name">
+      <a href="#">Name</a>
+    </div>
+
+    <div id="character-name-container" class="character-name-container">
+      <!-- <div class="character-name">
+        <h2>Rick Sánchez</h2>
+      </div> -->
+    </div>
+
+    <div id="character-image-container" class="character-image-container">
+      <!-- <img class="character-image" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Rick Sánchez"> -->
+    </div>
+
+    <!-- fila 3 -->
+    <div class="navigation about">
+      <a href="#">About</a>
+    </div>
+
+    <div id="character-description-container" class="character-description-container">
+      <!-- <div class="character-labels">
+        <h3 class="character-label">Género: Masculino</h3>
+        <h3 class="character-label"> Specie: Humano</h3>
+        <h3 class="character-label">Status: ?</h3>
+      </div> -->
+    </div>
+
+    <!-- fila 4 -->
+    <div class="asset bottom">
+      <span class="line"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <div></div>
+
+    <!-- fila 5 -->
+
+    <div id="load-back" class="arrow back"></div>
+
+    <!-- <div class="learn-more">
+      <span>learn-more</span>
+    </div> -->
+
+    <div id="load-next" class="arrow up"></div>
+
+
+
+
+  </div>
+
+  <script type="module" src="/static/js/app.js"></script>
 </body>
 
 </html>
