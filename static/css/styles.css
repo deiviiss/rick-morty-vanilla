@@ -76,6 +76,11 @@ body {
   text-decoration: none;
 }
 
+.social img {
+  width: 46.16px;
+  height: 46.16px;
+}
+
 .character-image-container {
   grid-area: avatar;
   /* border: 1px solid red; */
